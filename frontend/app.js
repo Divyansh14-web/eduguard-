@@ -10,7 +10,7 @@
 // ─────────────────────────────────────────────────────────
 const CONFIG = {
   // Change this to your production backend URL
-  BACKEND_URL: 'http://localhost:8001/api/v1',
+  BACKEND_URL: 'https://your-backend-url.com/api/v1'',
   FALLBACK_URL: 'http://localhost:8001/api/v1',
   TOKEN_KEY: 'eduguard_token',
   REFRESH_TOKEN_KEY: 'eduguard_refresh_token',
