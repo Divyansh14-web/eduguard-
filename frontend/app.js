@@ -63,10 +63,7 @@ async function apiRequest(path, options = {}) {
   log.info(`→ ${options.method || 'GET'} ${path}`);
 
   try {
-    const response = await fetch(url, {
-      ...options,
-      headers,
-    });
+    const response = await fetch("https://your-backend-url.onrender.com/api");
 
     STATE.isLoading = false;
 
