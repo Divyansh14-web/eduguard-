@@ -1,0 +1,32 @@
+{
+  "name": "eduguard-frontend",
+  "version": "1.0.0",
+  "description": "EduGuard AI Frontend - Student Dropout Prevention Dashboard",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 5500",
+    "dev": "python -m http.server 5500",
+    "serve": "python -m http.server 5500",
+    "preview": "python -m http.server 5500",
+    "build": "react-scripts build"
+  },
+  "keywords": [
+    "education",
+    "ai",
+    "student-retention",
+    "dashboard",
+    "nep-2020"
+  ],
+  "author": "EduGuard AI Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/eduguard-frontend"
+  },
+  "homepage": "https://eduguard.ai",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}
